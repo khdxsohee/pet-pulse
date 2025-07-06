@@ -1,5 +1,7 @@
 # 🐾 Pet Pulse - Adoption Website (Multi-Theme UI) 💖
 
+
+
 [![GitHub last commit](https://img.shields.io/github/last-commit/khdxsohee/pet-pulse?color=blue&label=Last%20Update&style=for-the-badge)](https://github.com/khdxsohee/pet-pulse/commits/main)
 [![GitHub Stars](https://img.shields.io/github/stars/khdxsohee/pet-pulse?style=for-the-badge&color=gold)](https://github.com/khdxsohee/pet-pulse/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/khdxsohee/pet-pulse?style=for-the-badge&color=purple)](https://github.com/khdxsohee/pet-pulse/network/members)
@@ -9,10 +11,9 @@
 [![Open Issues](https://img.shields.io/github/issues/khdxsohee/pet-pulse?style=for-the-badge&color=red)](https://github.com/khdxsohee/pet-pulse/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/khdxsohee/pet-pulse?style=for-the-badge&color=success)](https://github.com/khdxsohee/pet-pulse/issues?q=is%3Aissue+is%3Aclosed)
 [![Pull Requests](https://img.shields.io/github/issues-pr/khdxsohee/pet-pulse?style=for-the-badge&color=informational)](https://github.com/khdxsohee/pet-pulse/pulls)
-[![Last Commit Date](https://img.shields.io/github/last-commit/khdxsohee/pet-pulse?label=Updated&style=flat-square&color=lightgrey)](https://github.com/khdxsohee/pet-pulse/commits/main)
 [![Project Status](https://img.shields.io/badge/Status-WIP-success?style=for-the-badge)](https://github.com/khdxsohee/pet-pulse)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](CODE_OF_CONDUCT.md)
-**[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-green?style=for-the-badge&logo=vercel)](https://khalid-randhawa.web.app/apps-projects/pet-pulse/index.html)**
+> 🐶 A vibrant, multi-theme website that helps connect pets with loving homes.  
 
 
 <br>
@@ -51,10 +52,10 @@ Experience the **Pet Pulse** website live in your browser! Click the badge above
 * **🤝 How It Works:** Clear explanation of the simple steps involved in pet adoption.
 * **💖 Featured Pets:** Prominent display of adoptable pets with details.
 * **💬 Testimonials:** Heartwarming experiences from adoptive parents.
-* **CTA Section:** Encourages users to donate or get more information.
+* **📣 Call-to-Action:** Encourages users to donate or explore more.
 * **⬇️ Informative Footer:** Includes contact information, social media links, and navigation.
 * **🚀 Modern CSS:** Utilizes Flexbox, Grid, CSS Variables, and Transitions.
-* **💾 Local Storage Integration:** Ability to save the user's theme preference so it persists even after page reloads.
+* **💾 Local Storage:** Remembers user theme across visits using browser storage.
 
 ## 🛠️ Technologies Used
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
