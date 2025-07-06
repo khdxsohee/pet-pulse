@@ -119,6 +119,69 @@ pet-pulse/
 
 **Note:** You will need to manually create the `assets` folder and place your images there. Please adjust the image paths in your `index.html` and `style.css` accordingly.
 
+---
+
+## 🛣️ Roadmap
+
+The **Pet Pulse** project is under active development. Here’s a list of planned enhancements and future features to improve the user experience, functionality, and scalability of the website:
+
+---
+
+### ✅ Phase 1: Core Features (Completed)
+- [x] Responsive layout for mobile, tablet, and desktop
+- [x] Multi-theme UI toggle (Dark, Light, Red, Green, Yellow, Pink, Chocolate)
+- [x] Hero, About, How It Works, Featured Pets, Testimonials, Footer
+- [x] LocalStorage integration to remember user’s theme preference
+
+---
+
+### 🔄 Phase 2: In Progress / Planned
+- [ ] **Adoption Form Modal / Page**  
+  Allow users to fill out an application to adopt a pet.  
+  _Includes validation, success message, and data handling._
+
+- [ ] **Pet Filtering & Search Functionality**  
+  Enable users to search or filter pets by:
+  - 🐕 Type (Dog, Cat, Rabbit, etc.)
+  - 📍 Location
+  - 🧒 Age / Size / Breed
+
+- [ ] **Dynamic Featured Pets Section**  
+  Load pet data dynamically from JSON or an external API  
+  _→ Future proof for backend integration._
+
+- [ ] **Adoption Stories Section**  
+  Showcase real-life success stories with images and short testimonials.
+
+- [ ] **Pet Categories Page**  
+  Create separate pages or tabs for:
+  - Adopt
+  - Foster
+  - Donate
+  - Volunteer
+
+- [ ] **Shareable Pet Cards**  
+  Allow users to share pets on social media (Facebook, WhatsApp, X) via dynamic URLs.
+
+---
+
+### 💡 Phase 3: Nice-to-Have Ideas
+- [ ] **User Sign-Up / Log In System (Optional)**  
+  Allow users to save favorite pets or submit adoption forms with profiles.
+
+- [ ] **PWA Support (Progressive Web App)**  
+  Make the site installable with offline functionality.
+
+- [ ] **Backend Integration (Node.js or Firebase)**  
+  Store user-submitted forms and pet data dynamically.
+
+- [ ] **Admin Panel (Future Scope)**  
+  Interface to manage pets, stories, and adoption requests.
+
+---
+
+> 🎯 Contributions and suggestions are always welcome! See the [Contributing](#🤝-contributing) section for details.
+
 ## 🤝 Contributing
 
 We welcome your contributions to make this project even better! If you wish to add new features, fix bugs, or improve the code, please follow these steps:
