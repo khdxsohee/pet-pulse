@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Pulse - Adopt a Pet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">Pet Pulse</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Our Pets <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Adoption <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Volunteer <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Events <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Search <i class="fas fa-search"></i></a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li><a href="#">Contact <i class="fas fa-chevron-down"></i></a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="mode-toggle" class="btn mode-toggle-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn donate-btn-header">DONATE</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text-container">
+                    <h1>Do you think about adopting a pet?</h1>
+                    <p>Open your heart and home to a friend for life.</p>
+                    <div class="hero-buttons">
+                        <button class="btn find-out-btn">FIND OUT NOW</button>
+                        <button class="btn donate-btn">DONATE</button>
+                    </div>
+                    <div class="pagination">
+                        <div class="pagination-dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <img src="https://picsum.photos/id/237/800/600" alt="A lovely dog" class="hero-dog-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="about-us-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Mission</h2>
+                    <p>Dedicated to finding loving homes for every animal.</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>At Pet Pulse, we believe every animal deserves a loving and permanent home. We work tirelessly to rescue, rehabilitate, and rehome pets in need, providing them with medical care, food, and affection until they find their forever families.</p>
+                        <p>Our commitment extends beyond adoption, as we strive to educate the community on responsible pet ownership and the importance of spaying/neutering. Join us in making a difference in the lives of countless animals.</p>
+                        <button class="btn find-out-btn">Learn More</button>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://picsum.photos/id/1084/800/600" alt="Various pets together" style="width:100%; border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>How Our Adoption Process Works</h2>
+                    <p>Simple steps to welcome a new family member.</p>
+                </div>
+                <div class="process-steps">
+                    <div class="step-card">
+                        <i class="fas fa-search-dollar fa-3x"></i>
+                        <h3>1. Browse Pets</h3>
+                        <p>Explore our wide range of adoptable dogs, cats, and other animals online.</p>
+                    </div>
+                    <div class="step-card">
+                        <i class="fas fa-file-alt fa-3x"></i>
+                        <h3>2. Submit Application</h3>
+                        <p>Fill out our simple adoption application form to get started.</p>
+                    </div>
+                    <div class="step-card">
+                        <i class="fas fa-home fa-3x"></i>
+                        <h3>3. Meet & Adopt</h3>
+                        <p>Meet your potential new pet and take them home to their forever family!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-pets-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Featured Friends</h2>
+                    <p>Meet some of the lovely pets waiting for their forever homes.</p>
+                </div>
+                <div class="pet-grid">
+                    <div class="pet-card">
+                        <img src="https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGV0c3xlbnwwfHwwfHx8Mg%3D%3D" alt="Buddy the Dog">
+                        <h3>Buddy</h3>
+                        <p>Dog | Male | 2 Years Old</p>
+                        <button class="btn donate-btn">View Profile</button>
+                    </div>
+                    <div class="pet-card">
+                        <img src="https://images.unsplash.com/photo-1526526431900-88eb525f1e4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHBldHN8ZW58MHx8MHx8fDI%3D" alt="Whiskers the Cat">
+                        <h3>Whiskers</h3>
+                        <p>Cat | Female | 1 Year Old</p>
+                        <button class="btn donate-btn">View Profile</button>
+                    </div>
+                    <div class="pet-card">
+                        <img src="https://images.unsplash.com/photo-1563460716037-460a3ad24ba9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHBldHN8ZW58MHx8MHx8fDI%3D" alt="Daisy the Puppy">
+                        <h3>Daisy</h3>
+                        <p>Dog | Female | 6 Months Old</p>
+                        <button class="btn donate-btn">View Profile</button>
+                    </div>
+                    <div class="pet-card">
+                        <img src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBldHN8ZW58MHx8MHx8fDI%3D" alt="Mittens the Kitten">
+                        <h3>Mittens</h3>
+                        <p>Cat | Male | 3 Months Old</p>
+                        <button class="btn donate-btn">View Profile</button>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="btn find-out-btn" style="margin-top: 40px;">View All Pets</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Happy Tails</h2>
+                    <p>Stories from our wonderful adoption families.</p>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <p>"Adopting Luna from Pet Pulse was the best decision we ever made. She's brought so much joy into our home!"</p>
+                        <h4>- The Smith Family (Adopted Luna)</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"The team at Pet Pulse was incredibly supportive throughout the adoption process. We love our new cat, Oliver!"</p>
+                        <h4>- Sarah & Tom (Adopted Oliver)</h4>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"Thank you, Pet Pulse, for connecting us with Max. He's a perfect fit for our active family. Highly recommend!"</p>
+                        <h4>- David Chen (Adopted Max)</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section section-padding">
+            <div class="container text-center">
+                <h2>Ready to Make a Difference?</h2>
+                <p>Your support helps us save more lives and find loving homes for pets in need.</p>
+                <div class="cta-buttons">
+                    <button class="btn find-out-btn">Donate Now</button>
+                    <button class="btn donate-btn">Volunteer</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-column footer-about">
+                <h3>Pet Pulse</h3>
+                <p>Dedicated to rescuing, rehabilitating, and rehoming pets in need. We believe every animal deserves a loving forever home.</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Pets</a></li>
+                    <li><a href="#">Adoption Process</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Support & Resources</h3>
+                <ul>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Foster a Pet</a></li>
+                    <li><a href="#">Sponsor a Pet</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Pet Care Tips</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Pet Adoption Lane, City, Country</p>
+                <p><i class="fas fa-phone-alt"></i> +123 456 7890</p>
+                <p><i class="fas fa-envelope"></i> info@petpulse.com</p>
+                <p><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Pet Pulse. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
