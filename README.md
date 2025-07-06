@@ -12,6 +12,7 @@
 [![Last Commit Date](https://img.shields.io/github/last-commit/khdxsohee/pet-pulse?label=Updated&style=flat-square&color=lightgrey)](https://github.com/khdxsohee/pet-pulse/commits/main)
 [![Project Status](https://img.shields.io/badge/Status-WIP-success?style=for-the-badge)](https://github.com/khdxsohee/pet-pulse)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](CODE_OF_CONDUCT.md)
+**[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-green?style=for-the-badge&logo=vercel)](https://khalid-randhawa.web.app/apps-projects/pet-pulse/index.html)**
 
 
 <br>
@@ -21,6 +22,14 @@
 This repository contains the front-end code for a modern and responsive **Pet Adoption Website**. The primary goal of this website is to help find loving new homes for animals in need. To make the design engaging and user-friendly, it includes **multi-theme UI** functionality, allowing users to view the website in various colors (Dark, Light, Red, Green, Yellow, Pink, Chocolate) according to their preference.
 
 This project is built using HTML, CSS, and JavaScript, with a strong emphasis on responsive design to ensure it looks great on any device, from mobile phones to desktops.
+
+## 🌐 Live Demo
+**[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Website-green?style=for-the-badge&logo=vercel)](https://khalid-randhawa.web.app/apps-projects/pet-pulse/index.html)**
+
+Experience the **Pet Pulse** website live in your browser! Click the badge above or the link below to explore its multi-theme UI and responsive design firsthand.
+
+[**Visit the Live Website Here!**](https://khalid-randhawa.web.app/apps-projects/pet-pulse/index.html)
+
 
 ## ✨ Features
 [![Responsive Design](https://img.shields.io/badge/Responsive%20Design-Mobile%2FDesktop-5B2C6F?style=for-the-badge&logo=react)](https://developer.mozilla.org/en-US/docs/Web/Responsive_design)
