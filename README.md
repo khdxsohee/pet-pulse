@@ -107,6 +107,7 @@ pet-pulse/
 - ├── index.html        # Main HTML file for the website
 - ├── style.css         # All CSS styles, including multi-theme definitions
 - ├── script.js         # JavaScript for theme toggling and other interactive elements
+- ├── about.html         # About Us page, It contain All the Details
 - ├── assets/           # (Optional) Directory for images, fonts, etc.
 - │   ├── images/
 - │   │   └── hero-dog.jpg
