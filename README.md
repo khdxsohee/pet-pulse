@@ -72,7 +72,10 @@ You need a modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, S
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/khdxsohee/pet-pulse.git](https://github.com/khdxsohee/pet-pulse.git)
+    git clone https://github.com/khdxsohee/pet-pulse.git
+    ```
+    ```
+    https://github.com/khdxsohee/pet-pulse.git
     ```
 2.  **Navigate to the Directory:**
     ```bash
