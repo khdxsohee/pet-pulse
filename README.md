@@ -10,7 +10,7 @@
 [![Closed Issues](https://img.shields.io/github/issues-closed/khdxsohee/pet-pulse?style=for-the-badge&color=success)](https://github.com/khdxsohee/pet-pulse/issues?q=is%3Aissue+is%3Aclosed)
 [![Pull Requests](https://img.shields.io/github/issues-pr/khdxsohee/pet-pulse?style=for-the-badge&color=informational)](https://github.com/khdxsohee/pet-pulse/pulls)
 [![Last Commit Date](https://img.shields.io/github/last-commit/khdxsohee/pet-pulse?label=Updated&style=flat-square&color=lightgrey)](https://github.com/khdxsohee/pet-pulse/commits/main)
-[![Code Climate Maintainability](https://img.shields.io/codeclimate/maintainability/khdxsohee/pet-pulse?style=for-the-badge)](https://codeclimate.com/github/khdxsohee/pet-pulse)
+[![Project Status](https://img.shields.io/badge/Status-WIP-success?style=for-the-badge)](https://github.com/khdxsohee/pet-pulse)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge)](CODE_OF_CONDUCT.md)
 
 
