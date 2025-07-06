@@ -880,3 +880,272 @@ body.light-theme .cta-buttons .btn:hover {
         font-size: 12px;
     }
 }
+
+
+/* --- About Page Specific Styles (For content inside <main>) --- */
+
+/* Sub-page Hero Sections (like About, Contact, Adopt) */
+.hero-subpage {
+    position: relative;
+    width: 100%;
+    min-height: 40vh; /* Shorter than main hero */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--primary-text-color); /* Theme-aware text color */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    background-image: url('assets/images/about-hero-bg.jpg'); /* New image for about hero */
+    z-index: 1;
+    overflow: hidden; /* Ensure content stays within bounds */
+}
+
+/* Overlay for sub-page hero for better text readability */
+.hero-subpage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
+}
+
+.hero-subpage h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: var(--primary-text-color); /* Theme-aware heading color */
+}
+
+.hero-subpage p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--secondary-text-color); /* Theme-aware secondary text color */
+}
+
+/* About Us Content Section */
+.about-us-content {
+    background-color: var(--background-color); /* Ensures content background changes with theme */
+}
+
+.about-us-content .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Space between image and text */
+    align-items: center;
+}
+
+.about-us-content .about-image {
+    flex: 1;
+    min-width: 300px; /* Minimum width before wrapping */
+    max-width: 500px;
+}
+
+.about-us-content .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px var(--shadow-color); /* Theme-aware shadow */
+}
+
+.about-us-content .about-text {
+    flex: 2;
+    min-width: 350px; /* Minimum width for text before wrapping */
+}
+
+.about-us-content h2,
+.about-us-content h3 {
+    color: var(--heading-color); /* Theme-aware heading color */
+    margin-bottom: 15px;
+}
+
+.about-us-content p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: var(--secondary-text-color); /* Theme-aware paragraph text color */
+}
+
+.about-us-content ul {
+    list-style: none; /* Remove default bullet */
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.about-us-content ul li {
+    margin-bottom: 10px;
+    color: var(--secondary-text-color); /* Theme-aware list item text color */
+    position: relative;
+    padding-left: 25px; /* Space for custom bullet */
+}
+
+.about-us-content ul li::before {
+    content: "\f00c"; /* Font Awesome check-circle icon */
+    font-family: "Font Awesome 5 Free"; /* Ensure this matches your Font Awesome import */
+    font-weight: 900;
+    color: var(--accent-color); /* Theme-aware checkmark color */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Our Team Section */
+.our-team {
+    background-color: var(--section-bg-light); /* Theme-aware section background */
+    padding: 60px 0;
+}
+
+.our-team .section-description {
+    max-width: 700px;
+    margin: 0 auto 40px auto;
+    color: var(--secondary-text-color); /* Theme-aware description text color */
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center; /* Center items if they don't fill a row */
+}
+
+.team-member {
+    background-color: var(--card-bg-color); /* Theme-aware card background */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px var(--shadow-color); /* Theme-aware shadow */
+    text-align: center;
+    padding: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px var(--shadow-color); /* Adjusted for hover shadow */
+}
+
+.team-member .team-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 4px solid var(--accent-color); /* Theme-aware border color */
+}
+
+.team-member h3 {
+    color: var(--heading-color); /* Theme-aware heading color */
+    margin-bottom: 5px;
+    font-size: 1.6em;
+}
+
+.team-member p {
+    color: var(--secondary-text-color); /* Theme-aware paragraph text color */
+    font-size: 0.95em;
+    margin-bottom: 15px;
+}
+
+.team-member .social-links a {
+    color: var(--icon-color); /* Theme-aware icon color */
+    font-size: 1.5em;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.team-member .social-links a:hover {
+    color: var(--accent-color); /* Theme-aware hover color */
+}
+
+/* CTA Section (Global styles, applies to this page as well) */
+.cta-section {
+    background-color: var(--background-color); /* Theme-aware background color */
+    padding: 80px 0;
+}
+
+.cta-section h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    color: var(--heading-color); /* Theme-aware heading color */
+}
+
+.cta-section p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    color: var(--secondary-text-color); /* Theme-aware paragraph text color */
+}
+
+/* Buttons within CTA (assuming they use existing button classes) */
+.btn-primary-cta {
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-text);
+}
+.btn-primary-cta:hover {
+    background-color: var(--btn-primary-hover-bg);
+}
+.btn-secondary-cta {
+    background-color: var(--btn-secondary-bg);
+    color: var(--btn-secondary-text);
+}
+.btn-secondary-cta:hover {
+    background-color: var(--btn-secondary-hover-bg);
+}
+
+
+/* --- Responsive Adjustments for About Page content --- */
+@media (max-width: 768px) {
+    .hero-subpage h1 {
+        font-size: 2.5em;
+    }
+
+    .hero-subpage p {
+        font-size: 1em;
+    }
+
+    .about-us-content .flex-container {
+        flex-direction: column; /* Stack content vertically */
+        text-align: center;
+    }
+
+    .about-us-content .about-image {
+        max-width: 100%; /* Image takes full width */
+        margin-bottom: 30px;
+    }
+
+    .about-us-content ul {
+        text-align: left; /* Keep list items left-aligned relative to their container */
+    }
+    .about-us-content ul li {
+        padding-left: 25px; /* Maintain padding for bullet */
+    }
+    .about-us-content ul li::before {
+        left: 0; /* Keep bullet aligned to the left of the list item */
+        transform: none;
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr; /* Single column for team members */
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-subpage h1 {
+        font-size: 2em;
+    }
+    .about-us-content h2, .our-team h2, .cta-section h2 { /* Added cta-section h2 */
+        font-size: 2em;
+    }
+    .about-us-content h3 {
+        font-size: 1.4em;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+    .btn-primary-cta {
+        margin-right: 0; /* Remove margin for stacked buttons */
+        margin-bottom: 10px; /* Add space between stacked buttons */
+    }
+}
