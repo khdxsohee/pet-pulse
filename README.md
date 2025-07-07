@@ -198,7 +198,7 @@ Please make sure to write clear commit messages and describe your changes in det
 
 ## 📄 License
 
-This project is licensed under the **MIT License**. For more information, please see the [LICENSE](https://github.com/khdxsohee/pet-pulse/blob/main/LICENSE) file. *(If you do not have a LICENSE file, please create one or remove this line)*
+This project is licensed under the **MIT License**. For more information, please see the [LICENSE](https://github.com/khdxsohee/pet-pulse/blob/main/LICENSE) file.
 
 ## 📞 Contact
 
